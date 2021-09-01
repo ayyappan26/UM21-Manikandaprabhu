@@ -7,7 +7,7 @@ public class EmployeeTest {
 	public static void main(String[] args) {
 		EmployeeDTO employee[]= new EmployeeDTO[EmployeeTest.getUserInput()];
 		for(int i=0; i<= employee.length; i++){
-			System.out.println("");
+			System.out.println("Enter the number of employess");
 		}
 
 	}
@@ -16,5 +16,8 @@ public class EmployeeTest {
     	Scanner scan = new Scanner(System.in);
     	int userInput= scan.nextInt();
     	return userInput;
+    }
+    public static void dummyMethod(){
+    	
     }
 }
