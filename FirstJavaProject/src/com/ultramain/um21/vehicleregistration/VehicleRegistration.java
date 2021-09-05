@@ -1,4 +1,4 @@
-package com.ultramain.um21.vehicleregistration;
+ package com.ultramain.um21.vehicleregistration;
 
 import java.util.ArrayList;
 
@@ -14,9 +14,7 @@ public class VehicleRegistration {
 			if ((i < 10) && (i == luckyNumber)) {
 				Integer wI = new Integer(i);
 				resultList.add(wI);
-				// resultList.add(i); //AutoBoxing
-				// result[index]= i;
-				// index ++;
+				
 			} else if (i >= 10) {
 				curValue = i;
 				while (curValue > 0) {
@@ -32,8 +30,6 @@ public class VehicleRegistration {
 			}
 			if (sum == luckyNumber) {
 				resultList.add(i);
-				// result[index]=i;
-				// index++;
 			}
 			sum = 0;
 		}
